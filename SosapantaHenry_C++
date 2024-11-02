@@ -33,7 +33,7 @@ void Sosapanta_menu(){
         break;
     default:
         cout<<"Opcion incorrecta intente nuevamente"<<endl;
-        cin>>Sosapanta_op;
+        Sosapanta_menu();//SE DEBERÍA TENER RECURSIVIDAD EN EL CÓDIGO, PARA QUE SE PUEDA VOLVER A MOSTRAR EL PROGRAMA EN EL CASO DE QUE INGRESE UN NÚMERO INCORRECTO
     }
 }
 
