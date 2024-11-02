@@ -71,8 +71,7 @@ public class P1SosapantaHenry {
                 break;
             default :
                 //ESTE APARTADO ES EN EL CASO DE QUE SE DIGITE UNA OPCION INVALIDA
-                System.out.println("Opcion incorrecta pruebe de nuevo");
-                Sosapanta_op = Sosapanta_leer.nextInt();
+                System.out.println("Opcion incorrecta pruebe de nuevo");//NO HACE FALTA LEER LA OPCIÓN EN ESTE PUNTO NUEVAMENTE, YA QUE CON EL BUCLE SE VOLVERÁ AL MENÚ
         }      
         
         }while(Sosapanta_op != 3);
